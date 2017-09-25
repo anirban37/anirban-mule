@@ -30,8 +30,8 @@ VOLUME      ["/mule/logs", "/mule/domains","/mule/bin","/mule/conf"]
 CMD echo "------ Copy and deploy mule application in runtime --------"
 #Copy and deploy mule application in runtime
 CMD echo "------ Deploying mule application in runtime ! --------"
-#ADD https://dl.dropboxusercontent.com/s/h0xwffhk4yzb6au/TestApplication.zip /mule/apps
-COPY  ./TestMuleApp/TestApplication.zip .
+ADD https://dl.dropboxusercontent.com/s/h0xwffhk4yzb6au/TestApplication.zip .
+#COPY  ./TestMuleApp/TestApplication.zip .
 RUN chmod 777  TestApplication.zip 
 RUN ls -ltr
 RUN cp TestApplication.zip /mule/apps
