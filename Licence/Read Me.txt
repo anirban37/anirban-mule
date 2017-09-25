@@ -1,0 +1,13 @@
+This folder should contains the licence file. If licence is not enabled, the runtime will run for trail periods of 30 days.
+1. Place your mule-ee-license.lic here in this folder.
+2. Uncomment the following line in Dockerfile:
+
+#-------------------------------------------------------------------
+# Copy and install license
+#CMD echo "------ Copy and install license --------"
+#COPY        ./Licence/mule-ee-license.lic /mule/conf/
+#RUN         /mule/bin/mule -installLicense /mule/conf/mule-ee-license.lic
+#Check if Mule Licence installed
+#RUN ls -ltr mule-enterprise-standalone-3.8.5/conf/
+#CMD echo "------ Licence installed ! --------"
+#-------------------------------------------------------------------
