@@ -44,7 +44,7 @@ RUN ls -ltr /mule/apps
 # HTTP Service Port
 # Expose the necessary port ranges as required by the Mule Apps
 EXPOSE      8081-8082
-EXPOSE      9000
+EXPOSE      9082
 
 # Mule remote debugger
 EXPOSE      5000
