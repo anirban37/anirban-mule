@@ -1,5 +1,5 @@
 [![Build Status](https://semaphoreapp.com/api/v1/projects/d4cca506-99be-44d2-b19e-176f36ec8cf1/128505/shields_badge.svg)](https://semaphoreapp.com/boennemann/badges)
-# anirban-mule [![](https://images.microbadger.com/badges/image/anir37/anirban-mule.svg)](https://microbadger.com/images/anir37/anirban-mule "Get your own image badge on microbadger.com")   [![](https://images.microbadger.com/badges/version/anir37/anirban-mule.svg)](https://microbadger.com/images/anir37/anirban-mule "Get your own version badge on microbadger.com")
+[![](https://images.microbadger.com/badges/image/anir37/anirban-mule.svg)](https://microbadger.com/images/anir37/anirban-mule "Get your own image badge on microbadger.com")   [![](https://images.microbadger.com/badges/version/anir37/anirban-mule.svg)](https://microbadger.com/images/anir37/anirban-mule "Get your own version badge on microbadger.com")
 # anirban-mule
 It contains the configuration to run Mule runtime and Mule application on Docker container
 
