@@ -8,7 +8,7 @@ It contains the configuration to run Mule runtime and Mule application on Docker
 ### Steps to use the service ###
 
 * Pull the image using docker [`docker pull anir37/anirban-mule`](https://hub.docker.com/r/anir37/anirban-mule/) 
-* Once the image is pulled successfully use docker `docker run -p 9082:9082 -t -i anirban-mule`.
+* Once the image is pulled successfully use docker `docker run -p 9082:9082 -t -i anir37/anirban-mule`.
 * The sample application `TestApplication.zip` will be added and deployed to the Mule runtime which runs on http port `9082`.
 * To access and test the deployed test application, use the url :- `http://<your ip>:9082/testApplication`
 * Please note the here `<your ip>` is the `docker-machine` ip if you are running docker in Windows; if running on Unix, where docker is intalled locally, you can use `http://localhost:9082/testApplication` or the ip address of the system.
